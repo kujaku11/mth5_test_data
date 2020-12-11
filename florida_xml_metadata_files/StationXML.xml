@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1"
+                xmlns:iris="http://www.fdsn.org/xml/station/1/iris"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                schemaVersion="1.1"
+                xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd">
+   <Source>IRIS-DMC</Source>
+   <Created>2020-09-25T19:23:57</Created>
+   <Network code="EM" restrictedStatus="open" startDate="1996-01-01T00:00:00">
+      <Description>Electromagnetic Studies of the Continents (EMSOC)</Description>
+      <SelectedNumberStations>1</SelectedNumberStations>
+      <Station code="FL001" endDate="2015-01-29T16:18:14"
+               iris:alternateNetworkCodes="_INT-NON_FDSN,.UNRESTRICTED,_US-ALL,_US-MT,_US-MT-TA"
+               restrictedStatus="open"
+               startDate="2015-01-08T19:49:15">
+         <Comment>
+            <Value>No valid elevation recorded in the GPS.</Value>
+            <BeginEffectiveTime>2015-01-08T19:49:15</BeginEffectiveTime>
+            <EndEffectiveTime>2015-01-19T14:54:54</EndEffectiveTime>
+         </Comment>
+         <Comment>
+            <Value>No valid elevation recorded in the GPS.</Value>
+            <BeginEffectiveTime>2015-01-19T16:16:31</BeginEffectiveTime>
+            <EndEffectiveTime>2015-01-29T16:18:14</EndEffectiveTime>
+         </Comment>
+         <Latitude>29.7203555</Latitude>
+         <Longitude>-83.4854715</Longitude>
+         <Elevation>0</Elevation>
+         <Site>
+            <Name>Beachy Keen, FL, USA</Name>
+         </Site>
+         <CreationDate>2015-01-29T16:18:14</CreationDate>
+         <TotalNumberChannels>5</TotalNumberChannels>
+         <SelectedNumberChannels>5</SelectedNumberChannels>
+         <Channel code="MFN" endDate="2015-01-29T16:18:14" locationCode=""
+                  restrictedStatus="open"
+                  startDate="2015-01-08T19:49:15">
+            <Latitude>29.7203555</Latitude>
+            <Longitude>-83.4854715</Longitude>
+            <Elevation>0</Elevation>
+            <Depth>0</Depth>
+            <Azimuth>-4.1</Azimuth>
+            <Dip>0</Dip>
+            <Type>GEOPHYSICAL</Type>
+            <SampleRate>8</SampleRate>
+            <ClockDrift>0</ClockDrift>
+            <CalibrationUnits>
+               <Name>T</Name>
+               <Description>Tesla</Description>
+            </CalibrationUnits>
+            <Sensor>
+               <Description>NIMS 1305-1</Description>
+            </Sensor>
+            <Response>
+               <InstrumentSensitivity>
+                  <Value>100000000000</Value>
+                  <Frequency>0</Frequency>
+                  <InputUnits>
+                     <Name>T</Name>
+                     <Description>Tesla</Description>
+                  </InputUnits>
+                  <OutputUnits>
+                     <Name>COUNTS</Name>
+                     <Description>Digital Counts</Description>
+                  </OutputUnits>
+               </InstrumentSensitivity>
+               <Stage number="1">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>T</Name>
+                        <Description>Tesla</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>COUNTS</Name>
+                        <Description>Digital Counts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>1984.31439386406</NormalizationFactor>
+                     <NormalizationFrequency>0</NormalizationFrequency>
+                     <Pole number="0">
+                        <Real>-6.28318530717959</Real>
+                        <Imag>10.882476952035</Imag>
+                     </Pole>
+                     <Pole number="1">
+                        <Real>-6.28318530717959</Real>
+                        <Imag>-10.882476952035</Imag>
+                     </Pole>
+                     <Pole number="2">
+                        <Real>-12.5663706143592</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                     <Zero number="0">
+                        <Real>0</Real>
+                        <Imag>0</Imag>
+                     </Zero>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.2455</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>100000000000</Value>
+                     <Frequency>0</Frequency>
+                  </StageGain>
+               </Stage>
+               <Stage number="2">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>V</Name>
+                        <Description>Volts</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>COUNTS</Name>
+                        <Description>Digital Counts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>313383.601119193</NormalizationFactor>
+                     <NormalizationFrequency>0.01</NormalizationFrequency>
+                     <Pole number="0">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="1">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>-11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="2">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="3">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>-7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="4">
+                        <Real>-12.5663706143592</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.1525</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>409601000</Value>
+                     <Frequency>0</Frequency>
+                  </StageGain>
+               </Stage>
+            </Response>
+         </Channel>
+         <Channel code="MFE" endDate="2015-01-29T16:18:14" locationCode=""
+                  restrictedStatus="open"
+                  startDate="2015-01-08T19:49:15">
+            <Latitude>29.7203555</Latitude>
+            <Longitude>-83.4854715</Longitude>
+            <Elevation>0</Elevation>
+            <Depth>0</Depth>
+            <Azimuth>85.9</Azimuth>
+            <Dip>0</Dip>
+            <Type>GEOPHYSICAL</Type>
+            <SampleRate>8</SampleRate>
+            <ClockDrift>0</ClockDrift>
+            <CalibrationUnits>
+               <Name>T</Name>
+               <Description>Tesla</Description>
+            </CalibrationUnits>
+            <Sensor>
+               <Description>NIMS 1305-1</Description>
+            </Sensor>
+            <Response>
+               <InstrumentSensitivity>
+                  <Value>100000000000</Value>
+                  <Frequency>0</Frequency>
+                  <InputUnits>
+                     <Name>T</Name>
+                     <Description>Tesla</Description>
+                  </InputUnits>
+                  <OutputUnits>
+                     <Name>COUNTS</Name>
+                     <Description>Digital Counts</Description>
+                  </OutputUnits>
+               </InstrumentSensitivity>
+               <Stage number="1">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>T</Name>
+                        <Description>Tesla</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>COUNTS</Name>
+                        <Description>Digital Counts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>1984.31439386406</NormalizationFactor>
+                     <NormalizationFrequency>0</NormalizationFrequency>
+                     <Pole number="0">
+                        <Real>-6.28318530717959</Real>
+                        <Imag>10.882476952035</Imag>
+                     </Pole>
+                     <Pole number="1">
+                        <Real>-6.28318530717959</Real>
+                        <Imag>-10.882476952035</Imag>
+                     </Pole>
+                     <Pole number="2">
+                        <Real>-12.5663706143592</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                     <Zero number="0">
+                        <Real>0</Real>
+                        <Imag>0</Imag>
+                     </Zero>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.2365</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>100000000000</Value>
+                     <Frequency>0</Frequency>
+                  </StageGain>
+               </Stage>
+               <Stage number="2">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>V</Name>
+                        <Description>Volts</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>COUNTS</Name>
+                        <Description>Digital Counts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>313383.601119193</NormalizationFactor>
+                     <NormalizationFrequency>0.01</NormalizationFrequency>
+                     <Pole number="0">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="1">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>-11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="2">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="3">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>-7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="4">
+                        <Real>-12.5663706143592</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.1525</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>409601000</Value>
+                     <Frequency>0</Frequency>
+                  </StageGain>
+               </Stage>
+            </Response>
+         </Channel>
+         <Channel code="MFZ" endDate="2015-01-29T16:18:14" locationCode=""
+                  restrictedStatus="open"
+                  startDate="2015-01-08T19:49:15">
+            <Latitude>29.7203555</Latitude>
+            <Longitude>-83.4854715</Longitude>
+            <Elevation>0</Elevation>
+            <Depth>0</Depth>
+            <Azimuth>0</Azimuth>
+            <Dip>0</Dip>
+            <Type>GEOPHYSICAL</Type>
+            <SampleRate>8</SampleRate>
+            <ClockDrift>0</ClockDrift>
+            <CalibrationUnits>
+               <Name>T</Name>
+               <Description>Tesla</Description>
+            </CalibrationUnits>
+            <Sensor>
+               <Description>NIMS 1305-1</Description>
+            </Sensor>
+            <Response>
+               <InstrumentSensitivity>
+                  <Value>100000000000</Value>
+                  <Frequency>0</Frequency>
+                  <InputUnits>
+                     <Name>T</Name>
+                     <Description>Tesla</Description>
+                  </InputUnits>
+                  <OutputUnits>
+                     <Name>COUNTS</Name>
+                     <Description>Digital Counts</Description>
+                  </OutputUnits>
+               </InstrumentSensitivity>
+               <Stage number="1">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>T</Name>
+                        <Description>Tesla</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>COUNTS</Name>
+                        <Description>Digital Counts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>1984.31439386406</NormalizationFactor>
+                     <NormalizationFrequency>0</NormalizationFrequency>
+                     <Pole number="0">
+                        <Real>-6.28318530717959</Real>
+                        <Imag>10.882476952035</Imag>
+                     </Pole>
+                     <Pole number="1">
+                        <Real>-6.28318530717959</Real>
+                        <Imag>-10.882476952035</Imag>
+                     </Pole>
+                     <Pole number="2">
+                        <Real>-12.5663706143592</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.2275</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>100000000000</Value>
+                     <Frequency>0</Frequency>
+                  </StageGain>
+               </Stage>
+            </Response>
+         </Channel>
+         <Channel code="MQN" endDate="2015-01-29T16:18:14" locationCode=""
+                  restrictedStatus="open"
+                  startDate="2015-01-08T19:49:15">
+            <Latitude>29.7203555</Latitude>
+            <Longitude>-83.4854715</Longitude>
+            <Elevation>0</Elevation>
+            <Depth>0</Depth>
+            <Azimuth>-4.1</Azimuth>
+            <Dip>0</Dip>
+            <Type>GEOPHYSICAL</Type>
+            <SampleRate>8</SampleRate>
+            <ClockDrift>0</ClockDrift>
+            <CalibrationUnits>
+               <Name>V/M</Name>
+               <Description>Volts/Meter</Description>
+            </CalibrationUnits>
+            <Sensor>
+               <Description>NIMS 1305-1</Description>
+            </Sensor>
+            <Response>
+               <InstrumentSensitivity>
+                  <Value>40960000000</Value>
+                  <Frequency>0.01</Frequency>
+                  <InputUnits>
+                     <Name>V</Name>
+                     <Description>Volts</Description>
+                  </InputUnits>
+                  <OutputUnits>
+                     <Name>COUNTS</Name>
+                     <Description>Digital Counts</Description>
+                  </OutputUnits>
+               </InstrumentSensitivity>
+               <Stage number="1">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>V/M</Name>
+                        <Description>Volts/Meter</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>V</Name>
+                        <Description>Volts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>1.00000351809047</NormalizationFactor>
+                     <NormalizationFrequency>0.01</NormalizationFrequency>
+                     <Zero number="0">
+                        <Real>0</Real>
+                        <Imag>0</Imag>
+                     </Zero>
+                     <Pole number="0">
+                        <Real>-0.000166666666666667</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.2275</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>84.5</Value>
+                     <Frequency>0.01</Frequency>
+                  </StageGain>
+               </Stage>
+               <Stage number="2">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>V</Name>
+                        <Description>Volts</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>COUNTS</Name>
+                        <Description>Digital Counts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>313383.601119193</NormalizationFactor>
+                     <NormalizationFrequency>0.01</NormalizationFrequency>
+                     <Pole number="0">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="1">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>-11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="2">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="3">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>-7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="4">
+                        <Real>-12.5663706143592</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.1525</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>409601000</Value>
+                     <Frequency>0</Frequency>
+                  </StageGain>
+               </Stage>
+            </Response>
+         </Channel>
+         <Channel code="MQE" endDate="2015-01-29T16:18:14" locationCode=""
+                  restrictedStatus="open"
+                  startDate="2015-01-08T19:49:15">
+            <Latitude>29.7203555</Latitude>
+            <Longitude>-83.4854715</Longitude>
+            <Elevation>0</Elevation>
+            <Depth>0</Depth>
+            <Azimuth>85.9</Azimuth>
+            <Dip>0</Dip>
+            <Type>GEOPHYSICAL</Type>
+            <SampleRate>8</SampleRate>
+            <ClockDrift>0</ClockDrift>
+            <CalibrationUnits>
+               <Name>V/M</Name>
+               <Description>Volts/Meter</Description>
+            </CalibrationUnits>
+            <Sensor>
+               <Description>NIMS 1305-1</Description>
+            </Sensor>
+            <Response>
+               <InstrumentSensitivity>
+                  <Value>40960000000</Value>
+                  <Frequency>0.01</Frequency>
+                  <InputUnits>
+                     <Name>V</Name>
+                     <Description>Volts</Description>
+                  </InputUnits>
+                  <OutputUnits>
+                     <Name>COUNTS</Name>
+                     <Description>Digital Counts</Description>
+                  </OutputUnits>
+               </InstrumentSensitivity>
+               <Stage number="1">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>V/M</Name>
+                        <Description>Volts/Meter</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>V</Name>
+                        <Description>Volts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>1.00000351809047</NormalizationFactor>
+                     <NormalizationFrequency>0.01</NormalizationFrequency>
+                     <Zero number="0">
+                        <Real>0</Real>
+                        <Imag>0</Imag>
+                     </Zero>
+                     <Pole number="0">
+                        <Real>-0.000166666666666667</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.1525</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>103</Value>
+                     <Frequency>0.01</Frequency>
+                  </StageGain>
+               </Stage>
+               <Stage number="2">
+                  <PolesZeros>
+                     <InputUnits>
+                        <Name>V</Name>
+                        <Description>Volts</Description>
+                     </InputUnits>
+                     <OutputUnits>
+                        <Name>COUNTS</Name>
+                        <Description>Digital Counts</Description>
+                     </OutputUnits>
+                     <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+                     <NormalizationFactor>313383.601119193</NormalizationFactor>
+                     <NormalizationFrequency>0.01</NormalizationFrequency>
+                     <Pole number="0">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="1">
+                        <Real>-3.88300851983698</Real>
+                        <Imag>-11.951875091317</Imag>
+                     </Pole>
+                     <Pole number="2">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="3">
+                        <Real>-10.1661938270166</Real>
+                        <Imag>-7.38651264712032</Imag>
+                     </Pole>
+                     <Pole number="4">
+                        <Real>-12.5663706143592</Real>
+                        <Imag>0</Imag>
+                     </Pole>
+                  </PolesZeros>
+                  <Decimation>
+                     <InputSampleRate>8</InputSampleRate>
+                     <Factor>1</Factor>
+                     <Offset>0</Offset>
+                     <Delay>0.1525</Delay>
+                     <Correction>0</Correction>
+                  </Decimation>
+                  <StageGain>
+                     <Value>409601000</Value>
+                     <Frequency>0</Frequency>
+                  </StageGain>
+               </Stage>
+            </Response>
+         </Channel>
+      </Station>
+   </Network>
+</FDSNStationXML>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filters>
+   <filter>
+      <type>converter</type>
+      <name>mV/km to V/m</name>
+      <units_in>millivolt per kilometer</units_in>
+      <units_out>volt per meter</units_out>
+      <value>1e-06</value>
+   </filter>
+   <filter>
+      <type>rule</type>
+      <name>V/m to V</name>
+      <units_in>volt per meter</units_in>
+      <units_out>volt</units_out>
+      <string>multiply by electric.dipole_length</string>
+      <comments>electric field to voltage</comments>
+   </filter>
+   <filter>
+      <type>converter</type>
+      <name>V to counts</name>
+      <units_in>volt</units_in>
+      <units_out>counts</units_out>
+      <value>409601000</value>
+   </filter>
+   <filter>
+      <type>poles zeros</type>
+      <name>electric field 1 pole Butterworth high-pass</name>
+      <units_in>counts</units_in>
+      <units_out>counts</units_out>
+      <poles_zeros>[1 1 1.00000351809047 0 0 -0.000166666666666667 0]</poles_zeros>
+      <comments># of zeros, # of poles, normalization factor, zeros, poles</comments>
+   </filter>
+   <filter>
+      <type>poles zeros</type>
+      <name>electric field 5 pole Butterworth low-pass</name>
+      <units_in>counts</units_in>
+      <units_out>counts</units_out>
+      <poles_zeros>[0 5 313383.601119193 -3.88300851983698 11.951875091317 -3.88300851983698 -11.951875091317 -10.1661938270166 7.38651264712032 -10.1661938270166 -7.38651264712032 -12.5663706143592 0]</poles_zeros>
+      <comments># of zeros, # of poles, normalization factor, zeros, poles</comments>
+   </filter>
+   <filter>
+      <type>time offset (seconds)</type>
+      <name>electric time offset</name>
+      <units_in>counts</units_in>
+      <units_out>counts</units_out>
+      <value>0.1525</value>
+   </filter>
+   <filter>
+      <type>converter</type>
+      <name>counts to mV</name>
+      <units_in>counts</units_in>
+      <units_out>millivolt</units_out>
+      <value>2.44141221047903e-06</value>
+   </filter>
+   <filter>
+      <type>rule</type>
+      <name>mV to mV/km</name>
+      <units_in>millivolt</units_in>
+      <units_out>millivolt per kilometer</units_out>
+      <string>divide by electric.dipole_length; multiply by 1e3</string>
+      <comments>voltage to electric field</comments>
+   </filter>
+   <filter>
+      <type>converter</type>
+      <name>nT to T</name>
+      <units_in>nanotesla</units_in>
+      <units_out>tesla</units_out>
+      <value>1e-09</value>
+   </filter>
+   <filter>
+      <type>converter</type>
+      <name>T to counts</name>
+      <units_in>tesla</units_in>
+      <units_out>counts</units_out>
+      <value>100000000000</value>
+   </filter>
+   <filter>
+      <type>poles zeros</type>
+      <name>magnetic field 3 pole Butterworth low-pass</name>
+      <units_in>counts</units_in>
+      <units_out>counts</units_out>
+      <poles_zeros>[0 3 1984.31439386406 -6.28318530717959 10.882476952035 -6.28318530717959 -10.882476952035 -12.5663706143592 0]</poles_zeros>
+      <comments># of zeros, # of poles, normalization factor, zeros, poles</comments>
+   </filter>
+   <filter>
+      <type>time offset (seconds)</type>
+      <name>Hx time offset</name>
+      <units_in>counts</units_in>
+      <units_out>counts</units_out>
+      <value>0.2455</value>
+   </filter>
+   <filter>
+      <type>time offset (seconds)</type>
+      <name>Hy time offset</name>
+      <units_in>counts</units_in>
+      <units_out>counts</units_out>
+      <value>0.2365</value>
+   </filter>
+   <filter>
+      <type>time offset (seconds)</type>
+      <name>Hz time offset</name>
+      <units_in>counts</units_in>
+      <units_out>counts</units_out>
+      <value>0.2275</value>
+   </filter>
+   <filter>
+      <type>converter</type>
+      <name>counts to nT</name>
+      <units_in>counts</units_in>
+      <units_out>nanotesla</units_out>
+      <value>0.01</value>
+   </filter>
+</filters>

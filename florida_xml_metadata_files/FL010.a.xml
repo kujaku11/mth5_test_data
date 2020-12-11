@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<run>
+   <magnetic_channels_recorded>Hx, Hy, Hz</magnetic_channels_recorded>
+   <electric_channels_recorded>Ex, Ey</electric_channels_recorded>
+   <auxiliary_channels_recorded/>
+   <data_type>BB, LP</data_type>
+   <id>a</id>
+   <sample_rate>8</sample_rate>
+   <time_period>
+      <start>2015-01-12T18:30:59</start>
+      <end>2015-01-12T22:49:15</end>
+   </time_period>
+   <archive>
+      <new_epoch>1</new_epoch>
+   </archive>
+   <acquired_by>
+      <author>blb, jrm</author>
+      <comments>wet burial, little rain, big bull</comments>
+   </acquired_by>
+   <metadata_by>
+      <author>Anna Kelbert</author>
+      <comments>Paul Bedrosian: flooded on day 1, only 4 hrs data, pulled system, reinstalled NIMS (1/31), swapped batts (2/1); GPS stuck on C7 on 2/14; COMS issues on shutdown - pulled card w/o short cycle or End Run</comments>
+   </metadata_by>
+   <provenance>
+      <comments/>
+      <log/>
+   </provenance>
+   <comments>No valid elevation recorded in the GPS.</comments>
+   <data_logger>
+      <manufacturer>Barry Narod</manufacturer>
+      <model>NIMS</model>
+      <id>1105-4</id>
+      <timing_system>
+         <type>GPS</type>
+         <drift>0</drift>
+         <uncertainty>1</uncertainty>
+         <comments/>
+      </timing_system>
+      <firmware>
+         <author>Barry Narod</author>
+         <version/>
+      </firmware>
+      <power_source>
+         <type>battery</type>
+         <comments>voltage measurements not recorded</comments>
+      </power_source>
+   </data_logger>
+</run>

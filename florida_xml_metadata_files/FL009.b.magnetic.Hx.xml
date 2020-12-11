@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<magnetic>
+   <data_logger>
+      <channel_number>1</channel_number>
+   </data_logger>
+   <component>Hx</component>
+   <measurement_azimuth>-5.2</measurement_azimuth>
+   <measurement_tilt>0</measurement_tilt>
+   <sample_rate>8</sample_rate>
+   <sensor>
+      <id>1305-1</id>
+      <manufacturer>Barry Narod</manufacturer>
+      <type>Magnetometer</type>
+      <model>fluxgate</model>
+      <name>NIMS</name>
+      <comments/>
+   </sensor>
+   <time_period>
+      <start>2015-01-17T18:24:45</start>
+      <end>2015-02-01T16:54:10</end>
+   </time_period>
+   <data_quality>
+      <rating>
+         <value>0</value>
+      </rating>
+   </data_quality>
+   <filter>
+      <name>nT to T, T to counts, magnetic field 3 pole Butterworth low-pass, Hx time offset</name>
+      <applied>[1 1 0 0]</applied>
+      <comments/>
+   </filter>
+   <units>counts</units>
+   <comments>x 0.01 to get nT, Hx base shift 0 nT</comments>
+   <archive_id>MFN</archive_id>
+</magnetic>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<survey>
+   <project_lead>
+      <name>Bedrosian, P. A.</name>
+      <email>pbedrosian@usgs.gov</email>
+      <organization>U.S. Geological Survey</organization>
+   </project_lead>
+   <acquired_by>
+      <author>Bedrosian, P. A.</author>
+      <comments/>
+   </acquired_by>
+   <release_license>CC0</release_license>
+   <citation_dataset>
+      <doi>http://doi.org/10.17611/DP/EMTF/USGS/GEOMAG/FL15</doi>
+   </citation_dataset>
+   <citation_journal>
+      <doi>http://dx.doi.org/10.3133/ofr20151185</doi>
+   </citation_journal>
+   <country>USA</country>
+   <datum>WGS84</datum>
+   <time_period>
+      <start_date>2015-01-08</start_date>
+      <end_date>2015-02-24</end_date>
+   </time_period>
+   <archive_id>Florida</archive_id>
+   <archive_network>EM</archive_network>
+   <project>USGS-GEOMAG</project>
+   <geographic_name>Florida, USA</geographic_name>
+   <name>Florida 2015 Long Period &amp; Wideband</name>
+   <summary>Long-period and wideband EarthScope-style coverage of Florida</summary>
+   <northwest_corner>
+      <latitude>25.430755</latitude>
+      <longitude>-80.568892</longitude>
+   </northwest_corner>
+   <southeast_corner>
+      <latitude>29.749574</latitude>
+      <longitude>-83.4854715</longitude>
+   </southeast_corner>
+   <acknowledgements/>
+   <comments/>
+   <site_list>FL001, FL001, FL002, FL003, FL004, FL005, FL006, FL007, FL008, FL009, FL010, FL011, FL012, FL013, FL014, FL015, FL017, FL018, FL020, FL022</site_list>
+</survey>

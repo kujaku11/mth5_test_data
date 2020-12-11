@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<run>
+   <magnetic_channels_recorded>Hx, Hy, Hz</magnetic_channels_recorded>
+   <electric_channels_recorded>Ex, Ey</electric_channels_recorded>
+   <auxiliary_channels_recorded/>
+   <data_type>BB, LP</data_type>
+   <id>a</id>
+   <sample_rate>8</sample_rate>
+   <time_period>
+      <start>2015-02-05T21:38:51</start>
+      <end>2015-02-23T13:02:50</end>
+   </time_period>
+   <archive>
+      <new_epoch>1</new_epoch>
+   </archive>
+   <acquired_by>
+      <author>jrm, blb</author>
+      <comments>sun, nice weather</comments>
+   </acquired_by>
+   <metadata_by>
+      <author>Anna Kelbert</author>
+      <comments>P Aa nu nl a B Ke ed lr bo es ri ta :n : t oG tP aS l ls yt u bc ek a uo tn i fC u7 l o dn a t2 a/ .1 3 , G P S c a m e b a c k o n 2 / 1 9 ; C O M S i s s u e s o n s h u t d o w n - p u l l e d c a r d w / o s h o r t c y c l e o r E n d R u n</comments>
+   </metadata_by>
+   <provenance>
+      <comments/>
+      <log/>
+   </provenance>
+   <comments>No valid elevation recorded in the GPS.</comments>
+   <data_logger>
+      <manufacturer>Barry Narod</manufacturer>
+      <model>NIMS</model>
+      <id>1305-2</id>
+      <timing_system>
+         <type>GPS</type>
+         <drift>0</drift>
+         <uncertainty>1</uncertainty>
+         <comments/>
+      </timing_system>
+      <firmware>
+         <author>Barry Narod</author>
+         <version/>
+      </firmware>
+      <power_source>
+         <type>battery</type>
+         <comments>voltage measurements not recorded</comments>
+      </power_source>
+   </data_logger>
+</run>

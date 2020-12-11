@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<station>
+   <channels_recorded>Hx, Hy, Hz, Ex, Ey</channels_recorded>
+   <data_type>MT</data_type>
+   <id>FL010</id>
+   <archive_id>FL010</archive_id>
+   <acquired_by>
+      <author/>
+      <comments/>
+   </acquired_by>
+   <geographic_name>Raging Bull, FL, USA</geographic_name>
+   <location>
+      <declination>
+         <comments>Declination obtained from the instrument GNSS NMEA sequence</comments>
+         <model>Unknown</model>
+         <value>-5.6</value>
+      </declination>
+      <latitude>28.62018525</latitude>
+      <longitude>-80.9792265</longitude>
+      <elevation>0</elevation>
+   </location>
+   <time_period>
+      <start>2015-01-12T18:30:59</start>
+      <end>2015-02-20T16:51:52</end>
+   </time_period>
+   <orientation>
+      <method>compass</method>
+      <reference_frame>geographic</reference_frame>
+   </orientation>
+   <provenance>
+      <creation_time>2020-09-26T01:06:59</creation_time>
+      <software>
+         <author>Anna Kelbert, USGS</author>
+         <name>mth5_metadata.m</name>
+         <version>2020-09-25</version>
+      </software>
+      <submitter>
+         <author>Anna Kelbert, USGS</author>
+         <email>akelbert@usgs.gov</email>
+         <organization>USGS Geomagnetism Program</organization>
+      </submitter>
+   </provenance>
+   <run_list>a, b, c</run_list>
+   <run>
+      <item>
+         <magnetic_channels_recorded>Hx, Hy, Hz</magnetic_channels_recorded>
+         <electric_channels_recorded>Ex, Ey</electric_channels_recorded>
+         <auxiliary_channels_recorded/>
+         <data_type>BB, LP</data_type>
+         <id>a</id>
+         <sample_rate>8</sample_rate>
+         <time_period>
+            <start>2015-01-08T19:49:15</start>
+            <end>2015-01-19T14:54:54</end>
+         </time_period>
+         <new_epoch>1</new_epoch>
+         <acquired_by>
+            <author>BB</author>
+            <comments>it's cold in florida</comments>
+         </acquired_by>
+         <metadata_by>
+            <author>Anna Kelbert; Paul Bedrosian</author>
+            <comments>Paul Bedrosian: Ey, electrode dug up</comments>
+         </metadata_by>
+         <provenance>
+            <comments/>
+            <log/>
+         </provenance>
+         <comments>No valid elevation recorded in the GPS.</comments>
+         <data_logger>
+            <manufacturer>Barry Narod</manufacturer>
+            <model>NIMS</model>
+            <id>1305-1</id>
+            <timing_system>
+               <type>GPS</type>
+               <drift>0</drift>
+               <uncertainty>1</uncertainty>
+               <comments/>
+            </timing_system>
+            <firmware>
+               <author>Barry Narod</author>
+               <version/>
+            </firmware>
+            <power_source>
+               <type>battery</type>
+               <comments>voltage measurements not recorded</comments>
+            </power_source>
+         </data_logger>
+         <archive>
+            <new_epoch>1</new_epoch>
+         </archive>
+         <hchannel>
+            <item>
+               <data_logger>
+                  <channel_number>1</channel_number>
+               </data_logger>
+               <component>Hx</component>
+               <measurement_azimuth>-4.1</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <sensor>
+                  <id>1105-1</id>
+                  <manufacturer>Barry Narod</manufacturer>
+                  <type>Magnetometer</type>
+                  <model>fluxgate</model>
+                  <name>NIMS</name>
+                  <comments/>
+               </sensor>
+               <time_period>
+                  <start>2015-01-08T19:49:15</start>
+                  <end>2015-01-19T14:54:54</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>nT to T, T to counts, magnetic field 3 pole Butterworth low-pass, Hx time offset</name>
+                  <applied>[1 1 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 0.01 to get nT, Hx base shift 0 nT</comments>
+               <archive_id>MFN</archive_id>
+            </item>
+            <item>
+               <data_logger>
+                  <channel_number>2</channel_number>
+               </data_logger>
+               <component>Hy</component>
+               <measurement_azimuth>85.9</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <sensor>
+                  <id>1105-1</id>
+                  <manufacturer>Barry Narod</manufacturer>
+                  <type>Magnetometer</type>
+                  <model>fluxgate</model>
+                  <name>NIMS</name>
+                  <comments/>
+               </sensor>
+               <time_period>
+                  <start>2015-01-08T19:49:15</start>
+                  <end>2015-01-19T14:54:54</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>nT to T, T to counts, magnetic field 3 pole Butterworth low-pass, Hy time offset</name>
+                  <applied>[1 1 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 0.01 to get nT, Hy base shift 0 nT</comments>
+               <archive_id>MFE</archive_id>
+            </item>
+            <item>
+               <data_logger>
+                  <channel_number>3</channel_number>
+               </data_logger>
+               <component>Hz</component>
+               <measurement_azimuth>0</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <sensor>
+                  <id>1105-1</id>
+                  <manufacturer>Barry Narod</manufacturer>
+                  <type>Magnetometer</type>
+                  <model>fluxgate</model>
+                  <name>NIMS</name>
+                  <comments/>
+               </sensor>
+               <time_period>
+                  <start>2015-01-08T19:49:15</start>
+                  <end>2015-01-19T14:54:54</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>nT to T, T to counts, magnetic field 3 pole Butterworth low-pass, Hz time offset</name>
+                  <applied>[1 1 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 0.01 to get nT, Hz base shift 0 nT</comments>
+               <archive_id>MFZ</archive_id>
+            </item>
+         </hchannel>
+         <echannel>
+            <item>
+               <data_logger>
+                  <channel_number>4</channel_number>
+               </data_logger>
+               <component>Ex</component>
+               <dipole_length>84.5</dipole_length>
+               <positive>
+                  <id>3</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </positive>
+               <negative>
+                  <id>1</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </negative>
+               <measurement_azimuth>-4.1</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <time_period>
+                  <start>2015-01-08T19:49:15</start>
+                  <end>2015-01-19T14:54:54</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>mV/km to V/m, V/m to V, V to counts, electric field 1 pole Butterworth high-pass, electric field 5 pole Butterworth low-pass, electric time offset</name>
+                  <applied>[1 1 1 0 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 2.4414e-06 to get mv, Gain 1</comments>
+            </item>
+            <item>
+               <data_logger>
+                  <channel_number>5</channel_number>
+               </data_logger>
+               <component>Ey</component>
+               <dipole_length>103</dipole_length>
+               <positive>
+                  <id>4</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </positive>
+               <negative>
+                  <id>2</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </negative>
+               <measurement_azimuth>85.9</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <time_period>
+                  <start>2015-01-08T19:49:15</start>
+                  <end>2015-01-19T14:54:54</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>mV/km to V/m, V/m to V, V to counts, electric field 1 pole Butterworth high-pass, electric field 5 pole Butterworth low-pass, electric time offset</name>
+                  <applied>[1 1 1 0 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 2.4414e-06 to get mv, Gain 1</comments>
+            </item>
+         </echannel>
+      </item>
+      <item>
+         <magnetic_channels_recorded>Hx, Hy, Hz</magnetic_channels_recorded>
+         <electric_channels_recorded>Ex, Ey</electric_channels_recorded>
+         <auxiliary_channels_recorded/>
+         <data_type>BB, LP</data_type>
+         <id>b</id>
+         <sample_rate>8</sample_rate>
+         <time_period>
+            <start>2015-01-19T16:16:31</start>
+            <end>2015-01-29T16:18:14</end>
+         </time_period>
+         <new_epoch>1</new_epoch>
+         <acquired_by>
+            <author>blb</author>
+            <comments>Big Bend Wildlife Conservation, sunny, warm, very sandy, animals dug up site a bit during run a</comments>
+         </acquired_by>
+         <metadata_by>
+            <author>Anna Kelbert</author>
+            <comments/>
+         </metadata_by>
+         <provenance>
+            <comments/>
+            <log/>
+         </provenance>
+         <comments>No valid elevation recorded in the GPS.</comments>
+         <data_logger>
+            <manufacturer>Barry Narod</manufacturer>
+            <model>NIMS</model>
+            <id>1305-1</id>
+            <timing_system>
+               <type>GPS</type>
+               <drift>0</drift>
+               <uncertainty>1</uncertainty>
+               <comments/>
+            </timing_system>
+            <firmware>
+               <author>Barry Narod</author>
+               <version/>
+            </firmware>
+            <power_source>
+               <type>battery</type>
+               <comments>voltage measurements not recorded</comments>
+            </power_source>
+         </data_logger>
+         <archive>
+            <new_epoch>0</new_epoch>
+         </archive>
+         <hchannel>
+            <item>
+               <data_logger>
+                  <channel_number>1</channel_number>
+               </data_logger>
+               <component>Hx</component>
+               <measurement_azimuth>-4.1</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <sensor>
+                  <id>1105-1</id>
+                  <manufacturer>Barry Narod</manufacturer>
+                  <type>Magnetometer</type>
+                  <model>fluxgate</model>
+                  <name>NIMS</name>
+                  <comments/>
+               </sensor>
+               <time_period>
+                  <start>2015-01-19T16:16:31</start>
+                  <end>2015-01-29T16:18:14</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>nT to T, T to counts, magnetic field 3 pole Butterworth low-pass, Hx time offset</name>
+                  <applied>[1 1 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 0.01 to get nT, Hx base shift 0 nT</comments>
+               <archive_id>MFN</archive_id>
+            </item>
+            <item>
+               <data_logger>
+                  <channel_number>2</channel_number>
+               </data_logger>
+               <component>Hy</component>
+               <measurement_azimuth>85.9</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <sensor>
+                  <id>1105-1</id>
+                  <manufacturer>Barry Narod</manufacturer>
+                  <type>Magnetometer</type>
+                  <model>fluxgate</model>
+                  <name>NIMS</name>
+                  <comments/>
+               </sensor>
+               <time_period>
+                  <start>2015-01-19T16:16:31</start>
+                  <end>2015-01-29T16:18:14</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>nT to T, T to counts, magnetic field 3 pole Butterworth low-pass, Hy time offset</name>
+                  <applied>[1 1 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 0.01 to get nT, Hy base shift 0 nT</comments>
+               <archive_id>MFE</archive_id>
+            </item>
+            <item>
+               <data_logger>
+                  <channel_number>3</channel_number>
+               </data_logger>
+               <component>Hz</component>
+               <measurement_azimuth>0</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <sensor>
+                  <id>1105-1</id>
+                  <manufacturer>Barry Narod</manufacturer>
+                  <type>Magnetometer</type>
+                  <model>fluxgate</model>
+                  <name>NIMS</name>
+                  <comments/>
+               </sensor>
+               <time_period>
+                  <start>2015-01-19T16:16:31</start>
+                  <end>2015-01-29T16:18:14</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>nT to T, T to counts, magnetic field 3 pole Butterworth low-pass, Hz time offset</name>
+                  <applied>[1 1 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 0.01 to get nT, Hz base shift 0 nT</comments>
+               <archive_id>MFZ</archive_id>
+            </item>
+         </hchannel>
+         <echannel>
+            <item>
+               <data_logger>
+                  <channel_number>4</channel_number>
+               </data_logger>
+               <component>Ex</component>
+               <dipole_length>84.5</dipole_length>
+               <positive>
+                  <id>3</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </positive>
+               <negative>
+                  <id>1</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </negative>
+               <measurement_azimuth>-4.1</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <time_period>
+                  <start>2015-01-19T16:16:31</start>
+                  <end>2015-01-29T16:18:14</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>mV/km to V/m, V/m to V, V to counts, electric field 1 pole Butterworth high-pass, electric field 5 pole Butterworth low-pass, electric time offset</name>
+                  <applied>[1 1 1 0 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 2.4414e-06 to get mv, Gain 1</comments>
+            </item>
+            <item>
+               <data_logger>
+                  <channel_number>5</channel_number>
+               </data_logger>
+               <component>Ey</component>
+               <dipole_length>103</dipole_length>
+               <positive>
+                  <id>4</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </positive>
+               <negative>
+                  <id>2</id>
+                  <type>Electrode</type>
+                  <model>Pb-PbCl2 kaolin gel Petiau 2 chamber type</model>
+                  <manufacturer>Oregon State University</manufacturer>
+               </negative>
+               <measurement_azimuth>85.9</measurement_azimuth>
+               <measurement_tilt>0</measurement_tilt>
+               <sample_rate>8</sample_rate>
+               <time_period>
+                  <start>2015-01-19T16:16:31</start>
+                  <end>2015-01-29T16:18:14</end>
+               </time_period>
+               <data_quality>
+                  <rating>
+                     <value>0</value>
+                  </rating>
+               </data_quality>
+               <filter>
+                  <name>mV/km to V/m, V/m to V, V to counts, electric field 1 pole Butterworth high-pass, electric field 5 pole Butterworth low-pass, electric time offset</name>
+                  <applied>[1 1 1 0 0 0]</applied>
+                  <comments/>
+               </filter>
+               <units>counts</units>
+               <comments>x 2.4414e-06 to get mv, Gain 1</comments>
+            </item>
+         </echannel>
+      </item>
+   </run>
+</station>
