@@ -10,9 +10,9 @@
       <start>2015-01-08T19:49:15</start>
       <end>2015-01-19T14:54:54</end>
    </time_period>
-   <archive>
+   <fdsn>
       <new_epoch>1</new_epoch>
-   </archive>
+   </fdsn>
    <acquired_by>
       <author>BB</author>
       <comments>it's cold in florida</comments>
