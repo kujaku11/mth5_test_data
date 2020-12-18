@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <electric>
-   <data_logger>
-      <channel_number>5</channel_number>
-   </data_logger>
+   <channel_number>5</channel_number>
    <component>Ey</component>
    <dipole_length>103</dipole_length>
    <positive>

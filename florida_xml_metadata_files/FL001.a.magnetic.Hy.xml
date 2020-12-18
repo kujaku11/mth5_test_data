@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <magnetic>
-   <data_logger>
-      <channel_number>2</channel_number>
-   </data_logger>
+   <channel_number>2</channel_number>
    <component>Hy</component>
    <measurement_azimuth>85.9</measurement_azimuth>
    <measurement_tilt>0</measurement_tilt>
