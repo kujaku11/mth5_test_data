@@ -10,9 +10,9 @@
       <start>2015-01-09T17:24:25</start>
       <end>2015-01-19T18:57:12</end>
    </time_period>
-   <archive>
+   <fdsn>
       <new_epoch>1</new_epoch>
-   </archive>
+   </fdsn>
    <acquired_by>
       <author>blb</author>
       <comments>Warmer and less windy today. Sand hills, very sandy soil, high CR</comments>

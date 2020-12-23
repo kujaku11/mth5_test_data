@@ -3,7 +3,9 @@
    <channels_recorded>Hx, Hy, Hz, Ex, Ey</channels_recorded>
    <data_type>MT</data_type>
    <id>FL002</id>
-   <archive_id>FL002</archive_id>
+   <fdsn>
+      <id>FL002</id>
+   </fdsn>
    <acquired_by>
       <author/>
       <comments/>

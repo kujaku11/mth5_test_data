@@ -10,9 +10,9 @@
       <start>2015-01-19T19:33:06</start>
       <end>2015-01-29T13:19:09</end>
    </time_period>
-   <archive>
+   <fdsn>
       <new_epoch>0</new_epoch>
-   </archive>
+   </fdsn>
    <acquired_by>
       <author>jrm, blb</author>
       <comments>sunny, warm-</comments>
