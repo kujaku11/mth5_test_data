@@ -1,0 +1,14 @@
+include HISTORY.rst
+include LICENSE
+include README.rst
+
+recursive-include florida_xml_metadata_files *.xml
+recursive-include metadata_files *.xml
+recursive-include miniseed *.zip
+recursive-include nims *.zip
+recursive-include zen *.zip
+recursive-include usgs_ascii *.zip
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
