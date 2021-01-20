@@ -17,5 +17,5 @@ setup(
     description='A place to keep data samples used in testing mth5 to avoid bloat during development',
     url='https://github.com/kujaku11/mth5_test_data',
     keywords='mth5, data, examples',
-    packages=find_packages(include='mth5_test_data'),  # Required
+    packages=find_packages(include=['mth5_test_data', 'mth5_test_data.*']),  # Required
 ) 
