@@ -10,4 +10,4 @@ import pathlib
 import mth5_test_data
 
 init_file = inspect.getfile(mth5_test_data)
-MTH5_TEST_DATA_DIR = pathlib.Path(init_file).parent.parent
+MTH5_TEST_DATA_DIR = pathlib.Path(init_file).parent
