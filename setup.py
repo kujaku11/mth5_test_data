@@ -9,22 +9,6 @@ https://github.com/pypa/sampleprojecta
 #here = pathlib.Path(__file__).parent.resolve()
 """
 
-from setuptools import setup, find_packages
-
-with open("README.rst") as readme_file:
-    readme = readme_file.read()
-
-with open("HISTORY.rst") as history_file:
-    history = history_file.read()
-
-setup_requirements = [
-    "pytest-runner",
-]
-
-test_requirements = [
-    "pytest>=3",
-]
-
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 
@@ -42,7 +26,6 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    description="Test data for MTH5",
     name='mth5_test_data',
     version='0.0.1', 
     description='A place to keep data samples used in testing mth5 to avoid bloat during development',
