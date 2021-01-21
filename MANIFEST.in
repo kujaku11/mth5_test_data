@@ -4,7 +4,7 @@ include README.rst
 
 recursive-include mth5_test_data/florida_xml_metadata_files *.xml
 recursive-include mth5_test_data/metadata_files *.xml
-recursive-include mth5_test_data/miniseed *.zip
+recursive-include mth5_test_data/miniseed*.zip
 recursive-include mth5_test_data/nims *.zip
 recursive-include mth5_test_data/zen *.zip
 recursive-include mth5_test_data/usgs_ascii *.zip
