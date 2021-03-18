@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# MT data
+*.Z3D
+*.z3d
+*.BIN
+*.asc
+*.mth5
+*.h5
+*.mseed
+
 # C extensions
 *.so
 

@@ -11,9 +11,9 @@
    <Network code="ZU" endDate="2023-12-31T23:59:59" restrictedStatus="open"
             startDate="2020-06-01T00:00:00">
       <Description>USMTArray South Magnetotelluric Time Series</Description>
-      <Identifier>10.17611/DP/EMTF/USMTARRAY/SOUTH</Identifier>
+      <Identifier type="DOI">10.17611/DP/EMTF/USMTARRAY/SOUTH</Identifier>
       <Comment subject="mt.survey.citation_journal.doi">
-         <Value/>
+         <Value>10.666/test.doi</Value>
       </Comment>
       <Comment subject="mt.survey.survey_id">
          <Value>CONUS South-USGS</Value>
@@ -40,7 +40,7 @@
          <Value/>
       </Comment>
       <Operator>
-         <Agency>Oregon State University</Agency>
+		<Agency>Oregon State University</Agency>
          <Contact>
             <Name>Schultz, A.</Name>
             <Email>Adam.Schultz@oregonstate.edu</Email>
