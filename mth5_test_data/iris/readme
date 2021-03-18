@@ -1,0 +1,5 @@
+initial ZU_20210212.xml had only one channel.  
+
+Updated on 20210308 with 5-channel example:
+A direct download called fdsn-station_2021-03-09T04_44_51.xml
+Weblink: https://service.iris.edu/fdsnwsbeta/station/1/query?net=ZU&sta=CAS04&loc=*&cha=*&starttime=2020-01-01T00:00:00&endtime=2021-01-01T00:00:00&level=response&format=xml&includecomments=true&nodata=404
