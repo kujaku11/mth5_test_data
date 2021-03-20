@@ -1,0 +1,40 @@
+All calibration are given in the manual, but I have exported them, here the list of file types with some remarks:
+Create a folder like "Lemi-424_calibration"
+
+1) def-files
+The definition files are the accurate calibration of Lemi-424 acquisition unit and the Lemi-039 sensor.
+They belong together. The calibration is already in the system and can also be exported from the system.
+The output is already in nT.
+Attached the zipped def-files. Unzip in your Lemi-424 calibration folder.
+
+2) response files for each system and each channel  [ freq (Hz), amp (V/V), phase (degree) ]
+The calibration was done with complete system.
+This are the files which is needed, file name set up is name_SN_chan, e.g. :
+Lemi-424_N131_Bx.rsp
+Lemi-424_N131_Bx.rsp
+Lemi-424_N131_Bz.rsp
+Lemi-424_N131_E1.rsp
+Lemi-424_N131_E2.rsp
+Lemi-424_N131_E3.rsp
+Lemi-424_N131_E4.rsp
+
+The frequency range covers the period  to about 170000 s to  2 s (= Nyquist frequency).
+create a subfolder "\rsp" and unzip it there
+
+3) Sensor Lemi-039 calibration
+This calibration is done to demonstrate that the fluxgate magnetometer response is almost flat.
+The calibration is done over a larger frequency range (higher than sampling frequency 1 Hz)
+
+Create subfolder "Lemi-039" and unzip there "Lemi-039_N131to145BxByBz.zip"
+
+This calibration is just for demonstration.
+
+4) plots of calibration
+I have made graphs for all the calibration files, some plot just have differnt styles as line or linepoints
+Each unit is a pdf:
+create a subfolder "\plots" and unzip there
+
+5) sensors-folder for KMS-processing software
+When you have installed the KMS-processing software.
+This files should be included. I assume that Xiayu has done this already.
+Just check if Lemi-424-N131_Bx.rsp  (*.sr, or *.sr.json and others SN) are already included.
