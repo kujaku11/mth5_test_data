@@ -1,37 +1,21 @@
-============
-MT Metadata
-============
+An repository for testing data used in the MTH5 project.
 
+Includes:
 
-.. image:: https://img.shields.io/pypi/v/mt_metadata.svg
-        :target: https://pypi.python.org/pypi/mt_metadata
+- NIMS sample data
+- ZEN sample data
+- Metronix sample data
+- Phoenix sample data
 
-.. image:: https://img.shields.io/travis/kujaku11/mt_metadata.svg
-        :target: https://travis-ci.com/kujaku11/mt_metadata
+Suggested installation methods:
 
-.. image:: https://readthedocs.org/projects/mt_metadata/badge/?version=latest
-        :target: https://mt_metadata.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
+```bash
+# Install in development mode (recommended for testing)
+pip install -e .
 
+# Install with development dependencies
+pip install -e ".[dev]"
 
-
-
-Archivable and exchangeable format for magnetotelluric data
-
-
-* Free software: MIT license
-* Documentation: https://mt_metadata.readthedocs.io.
-
-
-Features
---------
-
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+# Install from repository directly
+pip install git+https://github.com/kujaku11/mth5_test_data.git
+```
