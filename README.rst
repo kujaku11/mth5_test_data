@@ -4,7 +4,7 @@ Includes:
 
 - NIMS sample data
 - ZEN sample data
-- Metronix sample data
+- Metronix sample data (from https://cloud.geo-metronix.de/s/WCiDGispeeiQS9G?dir=/small_example)
 - Phoenix sample data
 
 Suggested installation methods:
