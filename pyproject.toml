@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mth5_test_data"
+version = "0.0.1"
+description = "A place to keep data samples used in testing mth5 to avoid bloat during development"
+readme = "README.rst"
+authors = [
+    {name = "MTH5 Team", email = "jpeacock@usgs.gov"}
+]
+maintainers = [
+    {name = "MTH5 Team", email = "jpeacock@usgs.gov"}
+]
+license = {text = "MIT"}
+keywords = ["mth5", "data", "examples"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers", 
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/kujaku11/mth5_test_data"
+Repository = "https://github.com/kujaku11/mth5_test_data"
+"Bug Tracker" = "https://github.com/kujaku11/mth5_test_data/issues"
+
+[tool.setuptools.packages.find]
+include = ["mth5_test_data*"]
+
+[tool.setuptools.package-data]
+"mth5_test_data" = [
+    # XML metadata files from MANIFEST.in
+    "florida_xml_metadata_files/*.xml",
+    "metadata_files/*.xml",
+    # Zip archives from MANIFEST.in  
+    "miniseed/*.zip",
+    "nims/*.zip", 
+    "zen/*.zip",
+    "usgs_ascii/*.zip",
+    # Additional data files
+    "**/*.h5", 
+    "**/*.hdf5",
+    "**/*.txt", 
+    "**/*.dat",
+    "**/*.bin",
+    "**/*.json",
+    "**/*.csv",
+]
+
+# Include root-level files from MANIFEST.in
+[tool.setuptools.package-dir]
+"" = "."
+
+[tool.setuptools.data-files]
+"." = ["HISTORY.rst", "LICENSE", "README.rst"]
+
+[tool.setuptools.dynamic]
+# Can be used if you want to read version from a file or git tags
+# version = {attr = "mth5_test_data.__version__"}
+
+# Optional development dependencies
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov",
+    "black",
+    "flake8"
+]
+
+# Entry points if needed for command-line tools
+# [project.scripts]
+# mth5-test-data = "mth5_test_data.cli:main"
