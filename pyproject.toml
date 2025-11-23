@@ -41,9 +41,13 @@ include = ["mth5_test_data*"]
     # XML metadata files from MANIFEST.in
     "florida_xml_metadata_files/*.xml",
     "metadata_files/*.xml",
+    "iris/**/*.xml",
+    "stationxml/*.xml",
     # Zip archives from MANIFEST.in  
+    "metronix/*.zip",
     "miniseed/*.zip",
-    "nims/*.zip", 
+    "nims/*.zip",
+    "phoenix/*.zip",
     "zen/*.zip",
     "usgs_ascii/*.zip",
     # Additional data files
