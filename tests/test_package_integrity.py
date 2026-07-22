@@ -56,6 +56,7 @@ class TestPackageIntegrity:
         """Verify all expected zip files are present in the package."""
         expected_zips = {
             "metronix/metronix_test_data.zip",
+            "metronix/ats/metronix_ats_test_data.zip",
             "phoenix/phoenix_test_data.zip",
             "phoenix_mtu/phoenix_mtu_test_data.zip",
             "usgs_ascii/usgs_ascii_test_data.zip",
@@ -77,6 +78,7 @@ class TestPackageIntegrity:
         "instrument",
         [
             "metronix",
+            "metronix_ats",
             "phoenix",
             "phoenix_mtu",
             "usgs_ascii",
@@ -114,6 +116,17 @@ class TestPackageIntegrity:
         # Verify some expected subdirectories
         stations_dir = northern_mining / "stations"
         assert stations_dir.exists(), "stations directory not found in Northern_Mining"
+
+    def test_metronix_ats_extracted_structure(self):
+        """Verify metronix_ats data extracts correctly with expected structure."""
+        data_path = get_test_data_path("metronix_ats")
+
+        # Check for expected Northern_Mining directory structure
+        northern_mining = data_path / "meas_2024-12-01_15-31-21"
+        assert (
+            northern_mining.exists()
+        ), "meas_2024-12-01_15-31-21 directory not found after extraction"
+        assert northern_mining.is_dir(), "meas_2024-12-01_15-31-21 is not a directory"
 
     def test_phoenix_extracted_structure(self):
         """Verify phoenix data extracts correctly with expected structure."""
