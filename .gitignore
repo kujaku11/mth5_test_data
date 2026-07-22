@@ -11,6 +11,18 @@ __pycache__/
 *.mth5
 *.h5
 *.mseed
+*.TXT
+*.ats
+*.json
+*.xml
+*.sh
+*.atss
+*.td_*
+*.bak
+*stats
+*.pri
+*.TBL
+*.TS*
 
 # C extensions
 *.so
